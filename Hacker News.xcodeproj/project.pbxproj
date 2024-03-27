@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F36C54352BB354C100F70993 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36C54342BB354C100F70993 /* NetworkManager.swift */; };
+		F36C54372BB472AA00F70993 /* PostDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36C54362BB472AA00F70993 /* PostDate.swift */; };
+		F36C543A2BB4794000F70993 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36C54392BB4794000F70993 /* DetailView.swift */; };
+		F36C543C2BB47E5D00F70993 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36C543B2BB47E5D00F70993 /* WebView.swift */; };
 		F3FDE7DF2BB3505900FCEB49 /* Hacker_NewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDE7DE2BB3505900FCEB49 /* Hacker_NewsApp.swift */; };
 		F3FDE7E12BB3505900FCEB49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3FDE7E02BB3505900FCEB49 /* ContentView.swift */; };
 		F3FDE7E32BB3505E00FCEB49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3FDE7E22BB3505E00FCEB49 /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F36C54342BB354C100F70993 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F36C54362BB472AA00F70993 /* PostDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDate.swift; sourceTree = "<group>"; };
+		F36C54392BB4794000F70993 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F36C543B2BB47E5D00F70993 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		F3FDE7DB2BB3505900FCEB49 /* Hacker News.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hacker News.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3FDE7DE2BB3505900FCEB49 /* Hacker_NewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hacker_NewsApp.swift; sourceTree = "<group>"; };
 		F3FDE7E02BB3505900FCEB49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +79,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F36C54332BB3549800F70993 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F36C54342BB354C100F70993 /* NetworkManager.swift */,
+				F36C54362BB472AA00F70993 /* PostDate.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F36C54382BB4792B00F70993 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3FDE7E02BB3505900FCEB49 /* ContentView.swift */,
+				F36C54392BB4794000F70993 /* DetailView.swift */,
+				F36C543B2BB47E5D00F70993 /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F3FDE7D22BB3505900FCEB49 = {
 			isa = PBXGroup;
 			children = (
@@ -94,8 +121,9 @@
 		F3FDE7DD2BB3505900FCEB49 /* Hacker News */ = {
 			isa = PBXGroup;
 			children = (
+				F36C54332BB3549800F70993 /* Models */,
 				F3FDE7DE2BB3505900FCEB49 /* Hacker_NewsApp.swift */,
-				F3FDE7E02BB3505900FCEB49 /* ContentView.swift */,
+				F36C54382BB4792B00F70993 /* Views */,
 				F3FDE7E22BB3505E00FCEB49 /* Assets.xcassets */,
 				F3FDE7E42BB3505E00FCEB49 /* Preview Content */,
 			);
@@ -257,7 +285,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F36C54352BB354C100F70993 /* NetworkManager.swift in Sources */,
+				F36C54372BB472AA00F70993 /* PostDate.swift in Sources */,
 				F3FDE7E12BB3505900FCEB49 /* ContentView.swift in Sources */,
+				F36C543C2BB47E5D00F70993 /* WebView.swift in Sources */,
+				F36C543A2BB4794000F70993 /* DetailView.swift in Sources */,
 				F3FDE7DF2BB3505900FCEB49 /* Hacker_NewsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
